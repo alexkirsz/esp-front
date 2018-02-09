@@ -1,0 +1,133 @@
+.app {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  color: #9eacb3;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  font-size: 14px;
+  background-color: rgb(50, 56, 59);
+}
+
+.connection-error {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.connection-error-title {
+  font-size: 20px;
+  width: 400px;
+}
+
+.connection-error-description {
+  width: 400px;
+}
+
+.overlay {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.overlay > * {
+  pointer-events: all;
+}
+
+svg {
+  overflow: hidden;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.controls > * {
+  pointer-events: all;
+}
+
+.controls-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.controls-left-row1 {
+  margin-bottom: 5px;
+}
+
+.controls-left-row1 > * {
+  margin-right: 5px;
+}
+
+.controls-left-row1 > *:last-child {
+  margin-right: 0px;
+}
+
+.scene-controls {
+  margin-right: 1em;
+}
+
+.scene-controls button {
+  margin-left: 1em;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.label-input {
+  margin-right: 0.5em;
+}
+
+.label-select {
+  margin-left: 0.5em;
+}
+.controls-left > *:last-child {
+  margin-right: 0px;
+}
+
+.controls-right {
+  max-height: 100%;
+  overflow: auto;
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.mouse-position {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #9eacb3;
+  opacity: 0.8;
+  text-align: right;
+}

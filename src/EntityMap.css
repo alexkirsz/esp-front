@@ -1,0 +1,68 @@
+.entity-map {
+  width: 100%;
+  font-size: 12px;
+}
+
+.entity-entry {
+  overflow: hidden;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-radius: 5px;
+  opacity: 0.6;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 0.15s ease;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.entity-entry:last-child {
+  margin-bottom: 0;
+}
+
+.entity-entry:hover {
+  opacity: 0.8;
+}
+
+.entity-entry-follow {
+  opacity: 0.9;
+}
+
+.entity-entry-follow:hover {
+  opacity: 1;
+}
+
+.entity-name {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 2px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.entity-attrs {
+  padding: 3px 0px;
+}
+
+.entity-attr {
+  display: flex;
+  align-items: center;
+  padding: 3px 6px;
+}
+
+.entity-attr-name {
+  flex: 1;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: right;
+  margin-right: 6px;
+}
+
+.entity-coords {
+  flex: 1;
+  text-align: right;
+}
+
+.entity-coords .coords-norm {
+  font-weight: 600;
+}
