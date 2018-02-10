@@ -6,7 +6,7 @@ This is a 2D visualization environment for a physics simulation. It was built as
 
 ## Disclaimer
 
-This application should not be taken as an example on how to build *good* React applications: compromises were made for performance reasons, and performances aren't great anyway. There is still much to be done in the realm of optimization, although I'm afraid much is lost to SVG's inherent limitations. Also, the source is missing a lot of type annotations.
+This application should not be taken as an example on how to build *good* React applications: compromises were made for the sake of performance, and performance isn't good anyway. There is still much to be done in the realm of optimization, although I'm afraid much is lost to SVG's inherent limitations. Also, the source is missing a lot of type annotations.
 
 ## Building the project
 
